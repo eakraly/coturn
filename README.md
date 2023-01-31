@@ -67,7 +67,7 @@ TURN specs:
   * [RFC 6156](https://datatracker.ietf.org/doc/html/rfc6156) - IPv6 extension for TURN
   * [RFC 7443](https://datatracker.ietf.org/doc/html/rfc7443) - ALPN support for STUN & TURN
   * [RFC 7635](https://datatracker.ietf.org/doc/html/rfc7635) - oAuth third-party TURN/STUN authorization
-  * DTLS support (http://tools.ietf.org/html/draft-petithuguenin-tram-turn-dtls-00)
+  * [RFC 7350](https://datatracker.ietf.org/doc/html/rfc7350) - DTLS support
   * Mobile ICE (MICE) support (http://tools.ietf.org/html/draft-wing-tram-turn-mobility-02)
   * TURN REST API (http://tools.ietf.org/html/draft-uberti-behave-turn-rest-00)
   * Origin field in TURN (Multi-tenant TURN Server) (https://tools.ietf.org/html/draft-ietf-tram-stun-origin-06)
@@ -87,7 +87,7 @@ The implementation fully supports the following client-to-TURN-server protocols:
   * UDP (per [RFC 5766](https://datatracker.ietf.org/doc/html/rfc5766))
   * TCP (per [RFC 5766](https://datatracker.ietf.org/doc/html/rfc5766) and [RFC 6062](https://datatracker.ietf.org/doc/html/rfc6062))
   * TLS (per [RFC 5766](https://datatracker.ietf.org/doc/html/rfc) and [RFC 6062](https://datatracker.ietf.org/doc/html/rfc6062)): including TLS1.3; ECDHE is supported.
-  * DTLS1.0 and DTLS1.2 (http://tools.ietf.org/html/draft-petithuguenin-tram-turn-dtls-00)
+  * DTLS1.0 and DTLS1.2 (per [RFC 7350](https://datatracker.ietf.org/doc/html/rfc7350))
   * SCTP (experimental implementation).
 
 Relay protocols:
